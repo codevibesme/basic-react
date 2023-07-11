@@ -9,7 +9,7 @@ const Form = ({colorName, changeColor}) => {
                 placeholder="Add color name"
                 value={colorName}
                 onChange={(e)=>changeColor(e.target.value)} 
-                style= {{background:`${colorName}`}}
+                style= {{background: colorName}}
             />
         </form>
     )
